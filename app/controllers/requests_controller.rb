@@ -1,5 +1,5 @@
 class RequestsController < ApplicationController
-  def show
+  def create
     message_json = params["message_json"]
     render json: message_json
   end
